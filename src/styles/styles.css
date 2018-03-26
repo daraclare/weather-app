@@ -119,4 +119,8 @@ div.forecast-5 {
   .container {
     flex-direction: column;
   }
+
+  html {
+    font: 12px/18px "Graphik Web Light", Arial, Verdana, sans-serif;
+  }
 }
