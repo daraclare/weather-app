@@ -2,6 +2,17 @@
 
 This weather app has been built using my React-Node template, see [https://github.com/daraclare/react-node-template](https://github.com/daraclare/react-node-template). A demo of the app is available here: [https://daraclare.github.io/weather-app/](https://daraclare.github.io/weather-app/).
 
+## To Do
+
+There are many ways the app could be improved:
+
+**Testing:** the app could have been built using TDD, this could make the code more maintainable, extensible and create a focus on the goal of the project. At very least, more unit tests should be implemented to make the app more robust.  
+**Vanilla JavaScript:** the app was built using React for demonstration purposes only, such a simple app could have been built with plain JavaScript.  
+**Cross Browser Testing:** the app has not been testing across all browsers.  
+**Responsive Testing:** although efforts have been made to ensure the app is responsive, these have not been extensively tested outside the Chrome Dev tools.  
+**Locations Offered:** Geolocation could be used to detect the user's location and refine the weather for their location. Also, a dropdown of cities could be included for users that do not want to allow the use of their location.  
+**Celsius/Fahrenheit Options:** An option to toggle between Celsius and Fahrenheit could be enabled.
+
 ## Quick Start Guide
 
 Below is a quick start guide to running, building and testing the app.
