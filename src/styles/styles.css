@@ -1,5 +1,122 @@
 @import "./font-face.css";
 
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   font: 14px/20px "Graphik Web Light", Arial, Verdana, sans-serif;
+}
+
+body {
+  color: #2c3e50;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location {
+  margin: 0 auto;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  background: #2c3e50;
+  width: 100%;
+  color: white;
+  min-height: 5vh;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+div.today {
+  width: 100%;
+  min-height: 60vh;
+  padding: 2em 0;
+}
+
+div.today > div > i {
+  color: #2c3e50;
+  font-size: 16em;
+  padding: 0.3em 0;
+}
+
+i {
+  color: white;
+  font-size: 4em;
+  padding: 0.15em 0;
+}
+
+div.today > .description {
+  font-size: 2em;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+div.today > .temp {
+  font-size: 4em;
+}
+
+.temp {
+  font-size: 2em;
+  font-weight: bolder;
+  position: relative;
+  bottom: -0.75em;
+  left: 2.4em;
+}
+
+div.today > .day {
+  font-size: 2em;
+  font-weight: bolder;
+  padding-top: 0.5em;
+}
+
+.day {
+  font-size: 2em;
+  font-weight: bolder;
+  padding-top: 0.25em;
+}
+
+div[class^="forecast"] {
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  min-height: 35vh;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+div.forecast-2 {
+  background-color: #16a085;
+}
+
+div.forecast-3 {
+  background-color: #27ae60;
+}
+
+div.forecast-4 {
+  background-color: #2980b9;
+}
+
+div.forecast-5 {
+  background-color: #8e44ad;
+}
+
+@media screen and (max-width: 736px) {
+  .container {
+    flex-direction: column;
+  }
 }
