@@ -1,12 +1,10 @@
-/* eslint-disable no-var */
-
 import React from "react";
-import HomePage from "../src/components/HomePage/HomePage.js";
+import ApiPage from "../src/components/ApiPage/ApiPage.js";
 import { expect } from "chai";
 import { shallow } from "enzyme";
 
 describe("HomePage tag test", () => {
-  const wrapper = shallow(<HomePage />);
+  const wrapper = shallow(<ApiPage />);
   it("should be a <div> tag", () => {
     expect(wrapper.type()).to.eql("div");
   });
