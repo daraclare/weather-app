@@ -4,6 +4,7 @@ import { ReactDOM, render } from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
 import App from "./components/App";
 import "./styles/styles.css";
+import "./styles/weather-icons.css";
 
 //enable hot module replacement;
 // eslint-disable-next-line
