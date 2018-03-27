@@ -1,10 +1,12 @@
 # README: Weather App
 
-This weather app has been built using my React-Node template, see [https://github.com/daraclare/react-node-template](https://github.com/daraclare/react-node-template). A demo of the app is available here: [https://daraclare.github.io/weather-app/](https://daraclare.github.io/weather-app/).
+This weather app has been built using my React-Node template, see [https://github.com/daraclare/react-node-template](https://github.com/daraclare/react-node-template).
+
+A demo of the app is available here: [https://daraclare.github.io/weather-app/](https://daraclare.github.io/weather-app/).
 
 ## To Do
 
-There are many ways the app could be improved:
+Below are some of the ways the app could be improved:
 
 **Testing:** the app could have been built using TDD, this could make the code more maintainable, extensible and create a focus on the goal of the project. At very least, more unit tests should be implemented to make the app more robust.  
 **Vanilla JavaScript:** the app was built using React for demonstration purposes only, such a simple app could have been built with plain JavaScript.  
