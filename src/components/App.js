@@ -3,10 +3,6 @@ import ApiPage from "./ApiPage/ApiPage";
 
 export default class App extends React.Component {
   render() {
-    return (
-      <div>
-        <ApiPage />
-      </div>
-    );
+    return <ApiPage />;
   }
 }
