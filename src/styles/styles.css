@@ -52,6 +52,23 @@ i {
   padding: 0.15em 0;
 }
 
+i.wi.wi-09d,
+i.wi.wi-09n,
+i.wi.wi-10d,
+i.wi.wi-10n,
+i.wi.wi-11d,
+i.wi.wi-11n,
+i.wi.wi-13d,
+i.wi.wi-13n {
+  padding: 0 0 0.3em 0;
+}
+
+i.wi.wi-04d,
+i.wi.wi-04n {
+  padding: 0.35em 0 0 0;
+  margin-bottom: -0.05em;
+}
+
 div.today > .description {
   font-size: 2em;
 }
